@@ -1,0 +1,21 @@
+.nav-container{
+    z-index: 3;
+}
+.nav-title{
+    font-size: 1.3rem;
+  }
+  .nav-icon{
+    font-size: 1.3rem;
+  }
+
+.description{
+    margin: 1rem 0.9rem;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
