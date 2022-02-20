@@ -24,7 +24,7 @@
 
 .cart-page {
     display: flex;
-    flex-direction: ROW;
+    flex-direction: row;
     gap: 2rem;
     width: 50vw;
     
