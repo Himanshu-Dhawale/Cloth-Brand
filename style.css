@@ -30,6 +30,26 @@
   color: #fff;
   font-size: 3rem;
 }
+
+.landing-button{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #fff;
+  /* font-size: 3rem; */
+}
+
+.landing-button_link{
+ /* background-color: transparent; */
+ text-decoration: none;
+}
+
+link:visited{
+  text-decoration: none;
+}
+
 .flex-row {
     display: flex;
     align-items: center;
