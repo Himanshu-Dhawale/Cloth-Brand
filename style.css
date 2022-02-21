@@ -5,9 +5,24 @@
 .nav-title{
   font-size: 1.3rem;
 }
+
+.nav-title a{
+  text-decoration: none;
+  color: black;
+}
 .nav-icon{
   font-size: 1.3rem;
 }
+.search-div{
+  border: 0.1px solid black;
+  margin: 0 auto;
+ }
+ .searchbar{
+ outline: none;
+ border: none;
+ padding: 0.7px;
+  width: 15rem;   
+ }
 .landing-page-container{
     background-image: url("https://images.pexels.com/photos/6311260/pexels-photo-6311260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     width: 100%;
@@ -38,11 +53,9 @@
   transform: translate(-50%, -50%);
   background-color: transparent;
   color: #fff;
-  /* font-size: 3rem; */
 }
 
 .landing-button_link{
- /* background-color: transparent; */
  text-decoration: none;
 }
 

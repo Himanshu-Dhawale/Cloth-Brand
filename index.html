@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <div class="nav-container">
+    <div class="nav-container">
         <nav class="nav-bar">
-            <div class="nav-title">Empire Men's Wear</div>
-            <button class="nav-icon"><i class='bx bxs-user'></i></button>
-            <button class="nav-icon"><i class='bx bxs-heart'></i></button>
-            <button class="nav-icon"><i class='bx bxs-cart'></i></button>
+            <div class="nav-title"><a href="/index.html">Empire Men's Wear</a></div>
+            <div class="search-div">
+              <button class="nav-icon"><i class='bx bx-search-alt-2'></i></button>
+              <input class="searchbar" type="text">
+            </div>
+           <a href="/components/login/login.html"><button class="nav-icon"><i class='bx bxs-user'></i></button></a>
+           <a href="/components/wishlist/wishlist.html"> <button class="nav-icon"><i class='bx bxs-heart'></i></button></a>
+            <a href="/components/cart/cart.html"><button class="nav-icon"><i class='bx bxs-cart'></i></button></a>
         </nav>   
     </div>
          
@@ -25,8 +29,9 @@
                 <img  class="landing-image" src="https://images.pexels.com/photos/6311260/pexels-photo-6311260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">           
             
              <div class="landing-text">The Fashion Brand</div>
-          
-              <button class="landing-button"><a class="landing-button_link" href="/components/product/product.html">Buy Now</a></button>
+
+              <a href="/components/product/product.html"><button class="btn btn-primary-outline landing-button landing-button_link">Buy Now</button>
+              </a>
           
           <h1 class="deal-heading">Deals of the day</h1>
           <div class="deals-of-the-day flex-row-center">
