@@ -12,4 +12,6 @@ Empire apparel is an apparel store for latest fashion.
  - [Wishlist Page](https://empire-apparel.netlify.app/components/wishlist/wishlist.html)
  - [Cart Page](https://empire-apparel.netlify.app/components/cart/cart.html)
  
+## Demo
 
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/80173512/155091803-78eb6f1a-31a7-4ba4-8ce0-ccf420425888.gif)
